@@ -2,7 +2,10 @@ module github.com/jwlazy/gobot
 
 go 1.18
 
-require github.com/lucas-clemente/quic-go v0.28.0
+require (
+	github.com/lucas-clemente/quic-go v0.28.0
+	github.com/stianeikeland/go-rpio v4.2.0+incompatible
+)
 
 require (
 	github.com/cheekybits/genny v1.0.0 // indirect
