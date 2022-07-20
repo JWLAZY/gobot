@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/lucas-clemente/quic-go v0.28.0
-	github.com/stianeikeland/go-rpio v4.2.0+incompatible
+	github.com/stianeikeland/go-rpio/v4 v4.6.0
 )
 
 require (
