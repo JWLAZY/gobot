@@ -25,6 +25,14 @@ func (car *Car) Go(speed int) {
 	car.leftMotor1.Go(speed)
 }
 
+func (car *Car) TrunLeft() {
+
+}
+
+func (car *Car) TurnRight() {
+
+}
+
 func (car *Car) Stop() {
 	car.leftMotor1.Stop()
 }
